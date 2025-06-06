@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+body {
+    background-color: #000000; /* Preto */
+    color: #ffffff; /* Branco */
+    font-family: 'Cal Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+header a {
+    color: #000000; /* Preto */
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 15px;
+}
+header a:hover {
+    color: #666666; /* Cinza escuro */
+}
+.card {
+    background-color: #ffffff; /* Branco */
+    color: #000000; /* Preto */
+    border: none;
+    border-radius: 0.75rem;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.card-title {
+    color: #000000; /* Preto */
+}
+.btn-cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000; /* Preto */
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.modal-content {
+    background-color: #ffffff; /* Branco */
+    color: #000000; /* Preto */
+    border: 1px solid #000000;
+}
+footer {
+    background-color: #000000; /* Preto */
+    color: #ffffff; /* Branco */
+    padding: 1rem;
+    text-align: center;
+}
